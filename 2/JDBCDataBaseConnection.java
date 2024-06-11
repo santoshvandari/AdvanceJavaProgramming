@@ -1,7 +1,7 @@
 import java.sql.Connection;
 import java.sql.DriverManager;
 
-public class JdbcExample {
+public class JDBCDataBaseConnection {
     public static void main(String[] args) {
         try {
             // Load MySQL JDBC Driver
