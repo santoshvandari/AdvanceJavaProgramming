@@ -40,7 +40,7 @@ class UserNameInsertingDatabaseJava {
                     try{
 
                         Statement smt = conn.createStatement();
-                        smt.executeUpdate(query);
+                        smt.executeUpdate(query); 
                         System.out.println("Data Inserted Successfully");
                     }catch(Exception ex){
                         System.out.println(ex);
