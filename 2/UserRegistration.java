@@ -9,7 +9,6 @@ class UserRegistration {
         jf.setSize(400, 400);
         jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         jf.setLayout(null);
-        // jf.setLocationRelativeTo(null);
         jf.setVisible(true);
 
         JLabel lbl1 = new JLabel("Username: ");
@@ -47,8 +46,6 @@ class UserRegistration {
         result.setLocation(50, 150);
 
         try{
-              // Load MySQL JDBC Driver
-            Class.forName("com.mysql.jdbc.Driver");
               // Connect to MySQL
             String url = "jdbc:mysql://localhost:3306/javadb";
             String user = "root";  // replace with your MySQL username
@@ -78,8 +75,7 @@ class UserRegistration {
             });
         }catch(Exception ex){
             System.out.println(ex);
-        }
-       
+        }  
         exit1.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 System.exit(0);
