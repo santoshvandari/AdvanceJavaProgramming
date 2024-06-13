@@ -76,10 +76,10 @@ class UserRegistration {
         }catch(Exception ex){
             System.out.println(ex);
         }  
-        exit1.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
+
+        // USing Lambda Expression
+        exit1.addActionListener(e->{
                 System.exit(0);
-            }
         });
         
     }
