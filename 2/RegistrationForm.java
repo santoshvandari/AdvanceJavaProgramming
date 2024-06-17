@@ -67,8 +67,6 @@ public class RegistrationForm {
                     }catch(Exception ex){
                         System.out.println(ex);
                     }
-
-                  
                 } catch (Exception ex) {
                     System.out.println(ex);
                 } 
