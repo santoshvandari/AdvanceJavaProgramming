@@ -1,6 +1,5 @@
 import javax.swing.*;
-import java.awt.event.*;;
-public class MouseEvent {
+class MouseEvent {
     public static void main(String[] args) {
         JFrame jf = new JFrame("Sum of Number");
         jf.setLayout(null);

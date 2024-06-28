@@ -1,5 +1,4 @@
 import javax.swing.*;
-import java.awt.*;
 
 public class DisplayingImages {
     public static void main(String[] args) {
